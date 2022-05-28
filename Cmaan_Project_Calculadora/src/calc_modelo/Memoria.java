@@ -35,7 +35,6 @@ public class Memoria {
 	public void processarComando(String texto) {
 		TipoComando tipoComando = detectarTipoComando(texto);
 		
-		
 		if("AC".equals(texto)) {
 			textoAtual = "";
 		} else {
